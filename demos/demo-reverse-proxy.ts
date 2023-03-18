@@ -20,7 +20,7 @@ async function main() {
     // optionally override the default reverse proxy URL (or use one of your own...)
     // apiReverseProxyUrl: 'https://chat.duti.tech/api/conversation',
     // apiReverseProxyUrl: 'https://gpt.pawan.krd/backend-api/conversation',
-
+    model: 'gpt-4',
     accessToken: process.env.OPENAI_ACCESS_TOKEN,
     debug: false
   })
